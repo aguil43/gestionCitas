@@ -40,7 +40,7 @@ namespace appEscritorio
                 conn.Open();
 
                 // Paso 1: Verificar usuario y obtener su ID
-                string querySesion = "SELECT idUsuario FROM sesion WHERE nombreUsuario = @usuario AND contraUsuario = @contra";
+                string querySesion = "SELECT idUsuario FROM Sesion WHERE nombreUsuario = @usuario AND contraUsuario = @contra";
                 using (SQLiteCommand cmdSesion = new SQLiteCommand(querySesion, conn))
                 {
                     cmdSesion.Parameters.AddWithValue("@usuario", usuario);
@@ -53,7 +53,7 @@ namespace appEscritorio
                         int idUsuario = Convert.ToInt32(result);
 
                         // Paso 2: Obtener rol desde la tabla usuarios
-                        string queryRol = "SELECT rolUsuario FROM usuarios WHERE id = @idUsuario";
+                        string queryRol = "SELECT rolUsuario FROM Usuarios WHERE id = @idUsuario";
                         using (SQLiteCommand cmdRol = new SQLiteCommand(queryRol, conn))
                         {
                             cmdRol.Parameters.AddWithValue("@idUsuario", idUsuario);
