@@ -2,6 +2,8 @@ from flask import Flask
 from flask import request
 from flask import redirect
 from flask import make_response
+from flask import render_template
+from flask import url_for
 from backend import Auth
 from backend import Dates
 
@@ -9,7 +11,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def login():
-    return "<h1>Login page</h1>"
+    url_for("static", filename="diseno2.css")
+    return render_template("index.html")
 
 @app.post("/api/auth")
 def auth():
@@ -29,7 +32,7 @@ def auth():
             string = "Not autorized for this app"
         elif check[1] == 3:
             string = "Bad password"
-        return "<script>alert({})</script>".format(string)
+        return "<script>location=\"/\"; console.log('{}'); </script>".format(string)
 
 @app.get("/api/deauth")
 def deauth():
@@ -39,9 +42,11 @@ def deauth():
 
 @app.route("/home")
 def home():
+    url_for("static", filename="re2.css")
+    url_for("static", filename="app.js")
     if request.cookies.get("userid") == None:
         return redirect("/")
-    return "<h1>Home page</h1>"
+    return render_template("html/re.html")
 
 @app.get("/api/dates")
 def apiDates():
@@ -49,9 +54,11 @@ def apiDates():
         return redirect("/")
     return Dates.getDates(request.cookies.get("userid"))
 
-@app.route("/cita")
-def cita():
-    return "<h1> Pagina de informacion de una cita </h1>"
+@app.route("/cita/<id>")
+def cita(id):
+    url_for("static", filename="cita2.css")
+    url_for("static", filename="main.js")
+    return render_template("html/cita.html")
 
 @app.get("/api/date")
 def apiCita():

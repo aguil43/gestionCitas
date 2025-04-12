@@ -1,0 +1,46 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background-color: cornsilk;
+}
+
+h1
+{
+    text-align: center
+}
+
+div.pe
+{
+    background-color: #ffd977;
+    width: 100%;
+    height: 80px;
+}
+
+.mimi
+{
+    background-color: #ffd977;
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 7%;
+    border-radius: 50px;
+}
+
+.are
+{
+    background-color: #ffd977;
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 52%;
+    border-radius: 50px;
+}

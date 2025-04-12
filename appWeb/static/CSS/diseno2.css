@@ -1,0 +1,52 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    background-color: cornsilk;
+}
+
+h1
+{
+    text-align: center
+}
+
+div.pe
+{
+    background-color: #acc1eb;
+    width: 100%;
+    height: 80px;
+}
+
+h2.le
+{
+    text-align: center;
+    margin: 3%;
+}
+
+
+h2.te
+{
+    text-align: center;
+    margin: 3%;
+}
+
+.bu
+{
+    margin: 4%;
+}
+
+.mimi
+{
+    background-color: #acc1eb;
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 30%;
+    border-radius: 50px;
+}
