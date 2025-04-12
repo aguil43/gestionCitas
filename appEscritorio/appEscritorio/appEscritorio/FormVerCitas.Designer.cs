@@ -61,7 +61,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvCitas);
             this.Name = "FormVerCitas";
-            this.Text = "FormVerCitas";
+            this.Text = "VerCitas";
             this.Load += new System.EventHandler(this.FormVerCitas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCitas)).EndInit();
             this.ResumeLayout(false);

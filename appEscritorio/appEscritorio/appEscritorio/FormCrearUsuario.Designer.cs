@@ -139,7 +139,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(335, 314);
+            this.button1.Location = new System.Drawing.Point(281, 314);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 11;
@@ -151,7 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(423, 354);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -165,7 +165,7 @@
             this.Controls.Add(this.txtApellidoUsuario);
             this.Controls.Add(this.txtNombreUsuario);
             this.Name = "FormCrearUsuario";
-            this.Text = "FormCrearUsuario";
+            this.Text = "CrearUsuario";
             this.Load += new System.EventHandler(this.FormCrearUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

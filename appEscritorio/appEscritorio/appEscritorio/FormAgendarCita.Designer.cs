@@ -37,21 +37,21 @@
             // cbPaciente
             // 
             this.cbPaciente.FormattingEnabled = true;
-            this.cbPaciente.Location = new System.Drawing.Point(45, 45);
+            this.cbPaciente.Location = new System.Drawing.Point(12, 12);
             this.cbPaciente.Name = "cbPaciente";
             this.cbPaciente.Size = new System.Drawing.Size(244, 24);
             this.cbPaciente.TabIndex = 0;
             // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(310, 47);
+            this.dtpFecha.Location = new System.Drawing.Point(12, 42);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(200, 22);
+            this.dtpFecha.Size = new System.Drawing.Size(244, 22);
             this.dtpFecha.TabIndex = 1;
             // 
             // btnAgendar
             // 
-            this.btnAgendar.Location = new System.Drawing.Point(45, 87);
+            this.btnAgendar.Location = new System.Drawing.Point(12, 87);
             this.btnAgendar.Name = "btnAgendar";
             this.btnAgendar.Size = new System.Drawing.Size(81, 29);
             this.btnAgendar.TabIndex = 2;
@@ -61,9 +61,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(161, 93);
+            this.button1.Location = new System.Drawing.Point(118, 87);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 29);
             this.button1.TabIndex = 12;
             this.button1.Text = "Menú";
             this.button1.UseVisualStyleBackColor = true;
@@ -73,13 +73,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(274, 152);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAgendar);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.cbPaciente);
             this.Name = "FormAgendarCita";
-            this.Text = "FormAgendarCita";
+            this.Text = "AgendarCita";
             this.Load += new System.EventHandler(this.FormAgendarCita_Load);
             this.ResumeLayout(false);
 

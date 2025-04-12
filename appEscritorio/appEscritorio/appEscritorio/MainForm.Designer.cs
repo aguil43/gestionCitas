@@ -37,7 +37,7 @@
             // lblBienvenido
             // 
             this.lblBienvenido.AutoSize = true;
-            this.lblBienvenido.Location = new System.Drawing.Point(56, 30);
+            this.lblBienvenido.Location = new System.Drawing.Point(13, 33);
             this.lblBienvenido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBienvenido.Name = "lblBienvenido";
             this.lblBienvenido.Size = new System.Drawing.Size(75, 16);
@@ -81,14 +81,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(193, 187);
             this.Controls.Add(this.btnVerCitas);
             this.Controls.Add(this.btnAgendarCita);
             this.Controls.Add(this.btnCrearUsuario);
             this.Controls.Add(this.lblBienvenido);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
