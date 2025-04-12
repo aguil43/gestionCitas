@@ -37,48 +37,56 @@
             // lblBienvenido
             // 
             this.lblBienvenido.AutoSize = true;
-            this.lblBienvenido.Location = new System.Drawing.Point(83, 25);
+            this.lblBienvenido.Location = new System.Drawing.Point(56, 30);
+            this.lblBienvenido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBienvenido.Name = "lblBienvenido";
-            this.lblBienvenido.Size = new System.Drawing.Size(60, 13);
+            this.lblBienvenido.Size = new System.Drawing.Size(75, 16);
             this.lblBienvenido.TabIndex = 0;
             this.lblBienvenido.Text = "Bienvenido";
             // 
             // btnCrearUsuario
             // 
-            this.btnCrearUsuario.Location = new System.Drawing.Point(12, 58);
+            this.btnCrearUsuario.Location = new System.Drawing.Point(16, 71);
+            this.btnCrearUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.btnCrearUsuario.Name = "btnCrearUsuario";
-            this.btnCrearUsuario.Size = new System.Drawing.Size(115, 23);
+            this.btnCrearUsuario.Size = new System.Drawing.Size(153, 28);
             this.btnCrearUsuario.TabIndex = 2;
             this.btnCrearUsuario.Text = "Crear Usuario";
             this.btnCrearUsuario.UseVisualStyleBackColor = true;
+            this.btnCrearUsuario.Click += new System.EventHandler(this.btnCrearUsuario_Click);
             // 
             // btnAgendarCita
             // 
-            this.btnAgendarCita.Location = new System.Drawing.Point(12, 87);
+            this.btnAgendarCita.Location = new System.Drawing.Point(16, 107);
+            this.btnAgendarCita.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgendarCita.Name = "btnAgendarCita";
-            this.btnAgendarCita.Size = new System.Drawing.Size(115, 23);
+            this.btnAgendarCita.Size = new System.Drawing.Size(153, 28);
             this.btnAgendarCita.TabIndex = 3;
             this.btnAgendarCita.Text = "Agendar Cita";
             this.btnAgendarCita.UseVisualStyleBackColor = true;
+            this.btnAgendarCita.Click += new System.EventHandler(this.btnAgendarCita_Click);
             // 
             // btnVerCitas
             // 
-            this.btnVerCitas.Location = new System.Drawing.Point(12, 116);
+            this.btnVerCitas.Location = new System.Drawing.Point(16, 143);
+            this.btnVerCitas.Margin = new System.Windows.Forms.Padding(4);
             this.btnVerCitas.Name = "btnVerCitas";
-            this.btnVerCitas.Size = new System.Drawing.Size(115, 23);
+            this.btnVerCitas.Size = new System.Drawing.Size(153, 28);
             this.btnVerCitas.TabIndex = 4;
             this.btnVerCitas.Text = "Ver Mis Citas";
             this.btnVerCitas.UseVisualStyleBackColor = true;
+            this.btnVerCitas.Click += new System.EventHandler(this.btnVerCitas_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnVerCitas);
             this.Controls.Add(this.btnAgendarCita);
             this.Controls.Add(this.btnCrearUsuario);
             this.Controls.Add(this.lblBienvenido);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.ResumeLayout(false);
