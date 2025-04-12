@@ -34,5 +34,5 @@ En este conjunto de aplicaciones los usuarios tendran diferentes implementacione
 ### Tareas por realizar
 - [x] Desarrollo de la API
 - [ ] Implementacion de una interfaz web en las rutas de usuario
-- [ ] Desarrollo de la interaccion entre C# y la db
-- [ ] Desarrollo de la interfaz de usuario de escritorio 
+- [x] Desarrollo de la interaccion entre C# y la db
+- [x] Desarrollo de la interfaz de usuario de escritorio 
