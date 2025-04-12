@@ -20,7 +20,7 @@ namespace appEscritorio
      
         public class ConexionBD
         {
-            private static string cadena = "Data Source=db/clinica.db;Version=3;";
+            private static string cadena = "Data Source=clinica.db;Version=3;";
 
             public static SQLiteConnection Conectar()
             {
@@ -64,7 +64,7 @@ namespace appEscritorio
                                 int rol = Convert.ToInt32(rolObj); // 1 = admin, 2 = medico, 3 = paciente
 
                                 // Abrir el MainForm pasando el rol
-                                MainForm main = new MainForm(rol);
+                                MainForm main = new MainForm(rol, idUsuario);
                                 main.Show();
                                 this.Hide();
                             }
@@ -82,6 +82,10 @@ namespace appEscritorio
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
