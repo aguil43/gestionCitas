@@ -28,7 +28,7 @@ namespace appEscritorio
 
             int rol = 0;
             if (rolTexto == "Administrador") rol = 1;
-            else if (rolTexto == "Médico") rol = 2;
+            else if (rolTexto == "Medico") rol = 2;
             else if (rolTexto == "Paciente") rol = 3;
 
             using (SQLiteConnection conn = Form1.ConexionBD.Conectar())

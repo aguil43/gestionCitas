@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|c:\\users\\aguil\\desktop\\gestioncitas\\appescritorio\\appescritorio\\appescritorio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|solutionrelative:appescritorio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appescritorio\\formagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|solutionrelative:appescritorio\\formagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appescritorio\\formagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|solutionrelative:appescritorio\\formagendarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appescritorio\\formcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|solutionrelative:appescritorio\\formcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appescritorio\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|solutionrelative:appescritorio\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appescritorio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|solutionrelative:appescritorio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appescritorio\\formcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F01CCAC-1695-409D-BD08-3846D8634854}|appEscritorio\\appEscritorio.csproj|solutionrelative:appescritorio\\formcrearusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAgendarCita.cs",
+              "DocumentMoniker": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormAgendarCita.cs",
+              "RelativeDocumentMoniker": "appEscritorio\\FormAgendarCita.cs",
+              "ToolTip": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormAgendarCita.cs",
+              "RelativeToolTip": "appEscritorio\\FormAgendarCita.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T06:10:48.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAgendarCita.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormAgendarCita.cs",
+              "RelativeDocumentMoniker": "appEscritorio\\FormAgendarCita.cs",
+              "ToolTip": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormAgendarCita.cs [Design]",
+              "RelativeToolTip": "appEscritorio\\FormAgendarCita.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T06:10:41.503Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\Form1.cs",
+              "RelativeDocumentMoniker": "appEscritorio\\Form1.cs",
+              "ToolTip": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\Form1.cs",
+              "RelativeToolTip": "appEscritorio\\Form1.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:19:35.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormCrearUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormCrearUsuario.cs",
+              "RelativeDocumentMoniker": "appEscritorio\\FormCrearUsuario.cs",
+              "ToolTip": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormCrearUsuario.cs",
+              "RelativeToolTip": "appEscritorio\\FormCrearUsuario.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowB8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T05:30:50.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCrearUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormCrearUsuario.cs",
+              "RelativeDocumentMoniker": "appEscritorio\\FormCrearUsuario.cs",
+              "ToolTip": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\FormCrearUsuario.cs [Design]",
+              "RelativeToolTip": "appEscritorio\\FormCrearUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T05:30:44.912Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\MainForm.cs",
+              "RelativeDocumentMoniker": "appEscritorio\\MainForm.cs",
+              "ToolTip": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\MainForm.cs [Design]",
+              "RelativeToolTip": "appEscritorio\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:19:12.253Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\Form1.cs",
+              "RelativeDocumentMoniker": "appEscritorio\\Form1.cs",
+              "ToolTip": "C:\\Users\\aguil\\Desktop\\gestionCitas\\appEscritorio\\appEscritorio\\appEscritorio\\Form1.cs [Design]",
+              "RelativeToolTip": "appEscritorio\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:15:15.732Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

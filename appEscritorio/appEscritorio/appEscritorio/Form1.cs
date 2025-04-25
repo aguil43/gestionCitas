@@ -20,7 +20,7 @@ namespace appEscritorio
      
         public class ConexionBD
         {
-            private static string cadena = "Data Source=clinica.db;Version=3;";
+            private static string cadena = "Data Source=C:\\Users\\aguil\\Desktop\\gestionCitas\\appWeb\\clinica.db;Version=3;";
 
             public static SQLiteConnection Conectar()
             {
@@ -35,7 +35,7 @@ namespace appEscritorio
             string usuario = txtUsuario.Text;
             string contraseña = txtContraseña.Text;
 
-            using (SQLiteConnection conn = new SQLiteConnection("Data Source=clinica.db"))
+            using (SQLiteConnection conn = new SQLiteConnection("Data Source=C:\\Users\\aguil\\Desktop\\gestionCitas\\appWeb\\clinica.db;Version=3;"))
             {
                 conn.Open();
 

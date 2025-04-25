@@ -34,6 +34,8 @@ namespace appEscritorio
                     cbPaciente.DataSource = dt;
                     cbPaciente.DisplayMember = "nombre";
                     cbPaciente.ValueMember = "id";
+                    dtpFecha.Format = DateTimePickerFormat.Custom;
+                    dtpFecha.CustomFormat = "yyyy/MM/dd HH:mm";
                 }
             }
         }
@@ -42,7 +44,7 @@ namespace appEscritorio
         {
             int idPaciente = Convert.ToInt32(cbPaciente.SelectedValue);
             int idMedico = idUsuario;
-            string fecha = dtpFecha.Value.ToString("yyyy-MM-dd HH:mm:ss");
+            string fecha = dtpFecha.Value.ToString("yyyy/MM/dd HH:mm");
 
             using (var conn = Form1.ConexionBD.Conectar())
             {
